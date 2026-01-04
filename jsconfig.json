@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "module": "ESNext",
+        "target": "ES2022",
+        "lib": [
+            "ES2022",
+            "DOM"
+        ],
+        "moduleResolution": "bundler"
+    },
+    "include": [
+        "global.d.ts",
+        "src/libs/jquery/jquery-global.d.ts",
+        "src/types/jquery-spa-plugin.d.ts",
+        "node_modules/@types/**/*",
+        "src",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

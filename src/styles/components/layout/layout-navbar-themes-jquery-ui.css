@@ -1,0 +1,261 @@
+/*
+    -----------------------------------------------------------
+    ----------  /jquery.antonydev.tech/  ----------------------
+    ----------  /04-escuela.it/  ------------------------------
+    ----------  /curso-jquery-escuela.it/  --------------------
+    ----------  /src/styles/components/layout/  ---------------
+    ----------  /layout-navbar-themes-jquery-ui.css  ----------
+    -----------------------------------------------------------
+*/
+
+
+
+/*  
+    ----------------------------
+    -----  Menú principal  -----  
+    ----------------------------
+*/
+
+.navbar-themes-jquery-ui__container {
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #6366f1 100%);
+    background-repeat: repeat;
+    box-shadow: 1px 1px 10px rgb(209, 220, 235);
+}
+
+
+@media (min-width: 768px) {
+
+    .navbar-themes-jquery-ui__container {
+        width: 65rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+}
+
+
+/*
+    ---------------------------------------------
+    -----  Título del menú temas jQuery UI  -----
+    ---------------------------------------------
+*/
+
+.navbar-themes-jquery-ui__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #F7E7C0;
+    background-image:
+        linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+        linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+    background-size: 40px 40px;
+    box-shadow: 10px 10px 10px rgb(209, 220, 235);
+}
+
+
+/*
+    ------------------------------------------------
+    -----  Botones del menú temas jQuery UI  -----
+    ------------------------------------------------
+*/
+
+.navbar-themes-jquery-ui__btns {
+    position: relative;
+    width: 100%;
+    /* padding: 1rem; */
+    /* padding-top: 5rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* background-color: aqua; */
+
+}
+
+@media (min-width: 480px) {
+
+    .navbar-themes-jquery-ui__btns {
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .navbar-themes-jquery-ui__btns {
+        width: 65rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+
+
+/*
+    ------------------------------------------
+    -----  links de los temas jQuery UI  -----
+    ------------------------------------------
+*/
+
+.boton-ui {
+    width: 9rem;
+    max-height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: blueviolet;
+    transition: all 300ms ease-in-out;
+    z-index: 10;
+}
+
+.boton-ui:hover,
+.boton-ui.active {
+    outline: 3px solid #000;
+    outline-offset: -3px;
+    box-shadow: 0 0 15px #000;
+}
+
+/*
+    --------------------------------------------
+    -----  Colores de los temas jQuery UI  -----
+    --------------------------------------------
+*/
+
+#to-lightness {
+    background-color: #EB8F00;
+}
+
+#to-darkness {
+    background-color: #262626;
+}
+
+#to-base {
+    color: #000000;
+    background-color: #EDEDED;
+}
+
+#to-black-tie {
+    background-color: #4E4E4E;
+}
+
+#to-blitzer {
+    color: #000000;
+    background-color: #FCFCFC;
+}
+
+#to-cupertino {
+    color: #000000;
+    background-color: #62BBE9;
+}
+
+#to-dark-hive {
+    background-color: #1F7FAD;
+}
+
+#to-dot-luv {
+    background-color: #0B5194;
+}
+
+#to-eggplant {
+    background-color: #5B5661;
+}
+
+#to-excite-bike {
+    background-color: #E9A219;
+}
+
+#to-flick {
+    background-color: #FF00A4;
+}
+
+#to-hot-sneack {
+    color: #000000;
+    background-color: #CCD232;
+}
+
+#to-humanity {
+    color: #000000;
+    background-color: #F6F1E6;
+}
+
+#to-le-frog {
+    background-color: #4F792E;
+}
+
+#to-mint-choc {
+    color: #000000;
+    background-color: #BAEC7E;
+}
+
+#to-overcast {
+    color: #000000;
+    background-color: #C9C9C9;
+}
+
+#to-pepper-grinder {
+    background-color: #674F2B;
+}
+
+#to-redmond {
+    color: #000000;
+    background-color: #DEEDF8;
+}
+
+#to-smoothness {
+    color: #000000;
+    background-color: #E3E3E3;
+}
+
+#to-south-street {
+    color: #000000;
+    background-color: #7CBB40;
+}
+
+#to-start {
+    color: #000000;
+    background-color: #81CCED;
+}
+
+#to-sunny {
+    color: #000000;
+    background-color: #FEEEBD;
+}
+
+#to-swanky-purse {
+    background-color: #D4A515;
+}
+
+#to-trontastic {
+    background-color: #474747;
+}
+
+#to-vader {
+    background-color: #262626;
+}

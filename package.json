@@ -1,0 +1,35 @@
+{
+  "name": "curso-jquery-escuela.it",
+  "version": "1.0.0",
+  "description": "Sitio web principal dedicada a tutoriales y recursos sobre jQuery.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "jqueryui",
+    "curso jquery escuela.it",
+    "tutoriales",
+    "recursos",
+    "javascript",
+    "web",
+    "frontend",
+    "development",
+    "AntonyDev"
+  ],
+  "author": "Antonio Francisco Cutillas García",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
+  "devDependencies": {
+    "@types/jquery": "^3.5.33",
+    "@types/jqueryui": "^1.12.24",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-terser": "^2.1.0"
+  }
+}
