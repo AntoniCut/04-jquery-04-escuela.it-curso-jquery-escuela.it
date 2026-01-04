@@ -25,7 +25,7 @@ export const routes02UtilizarJQueryEnLaActualidad = [
     {
         id: 'clase02',
         favicon: "/04-escuela.it/curso-jquery-escuela.it/assets/favicon/jquery-favicon.ico",
-        pageTitle: "Clase 2 - Es NecesarioUtilizar jQuery en la Actualidad",
+        pageTitle: "Clase 2 - Es Necesario Utilizar jQuery en la Actualidad",
         path: "/clase2-utilizar-jquery-en-la-actualidad",
         components: {
             "#layoutHeader": "/04-escuela.it/curso-jquery-escuela.it/src/components/layout/layout-header.html",

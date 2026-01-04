@@ -53,7 +53,7 @@ export function clean() {
 */
 
 export function minifyAllJs() {
-    
+
     return gulp
         .src(
             ["src/**/*.js", ...EXCLUDES],
@@ -71,7 +71,7 @@ export function minifyAllJs() {
 */
 
 export function minifyAllCss() {
-    
+
     return gulp
         .src(
             ["src/**/*.css", ...EXCLUDES],
@@ -89,7 +89,7 @@ export function minifyAllCss() {
 */
 
 export function minifyRootIndex() {
-    
+
     return gulp
         .src("index.html")
         .pipe(
@@ -109,7 +109,7 @@ export function minifyRootIndex() {
 */
 
 export function minifyHtml() {
-    
+
     return gulp
         .src(
             ["src/**/*.html", ...EXCLUDES],
@@ -125,19 +125,6 @@ export function minifyHtml() {
 }
 
 
-/*
-    --------------------------------------
-    -----  📄  --  ARCHIVOS DE RAÍZ  -----
-    -------------------------------------- 
-*/
-
-export function copyRootFiles() {
-    
-    return gulp
-        .src(["manifest.json", "sw.js"])
-        .pipe(gulp.dest("dist"));
-}
-
 
 /* 
     ---------------------------
@@ -150,8 +137,7 @@ export const build = gulp.series(
         minifyAllJs,
         minifyAllCss,
         minifyRootIndex,
-        minifyHtml,
-        copyRootFiles
+        minifyHtml
     )
 );
 
