@@ -57,7 +57,6 @@
         </div>
 
 
-
         <!--  -----  Contenedor de los Logos de los cursos  -----  -->
         <div class="container-logos__cursos">
 
@@ -83,24 +82,42 @@
         
     <div class="header__container-title">
 
-        <!--  -----  Título del Header -----  -->
-        <h1 class="header__title"> 
-            
-            <a href="#" data-id="home">
-                &lt; Curso jQuery Escuela.IT /&gt; 
-            </a>
-            
-            <!--  -----  renderizado del título con el plugin de jQuery  -----  -->
-            <p id="headerTitle"> </p>
+        <div class="container__title-main container__title-main--first">
 
-            &lt; escuela.it /&gt;
+             <h1 class="header__title-main"> 
+                <a 
+                    href="#" 
+                    data-id="home" 
+                    title=" 🏡Ir a Inicio 🏡"
+                    aria-label="Ir a Inicio"
+                >
+                    &lt; Curso jQuery Escuela.IT /&gt; 
+                </a>
+            </h1>
 
-        </h1>
-        
+        </div>
+
+        <div class="container__title-page">
+             
+            <h2 class="header__title-page" id="headerTitle"> 
+                <!--  *****  renderizado del título con el plugin de jQuery  *****  -->
+            </h2>
+
+        </div>
+
+        <div class="container__title-main container__title-main--last">
+
+             <h3 class="header__title-main"> 
+                &lt; escuela.it /&gt;
+            </h3>
+
+        </div>
+                
     </div>
 
 
-     <!--  
+    
+    <!--  
         ------------------------------------------------------------------
         -----  Contenedor de los Icons y Logos de jQuery UI y Cursos -----
         ------------------------------------------------------------------

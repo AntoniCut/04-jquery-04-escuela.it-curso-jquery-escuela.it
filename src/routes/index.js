@@ -10,5 +10,8 @@
 
 
 export { routes00Home } from './routes-00-home.js';
-export { routes01QueEsJQuery } from './routes-01-que-es-jquery.js';
-export { routes02UtilizarJQueryEnLaActualidad } from './routes-02-utilizar-jquery-en-la-actualidad.js';
+export { routesClase01 } from './routes-clase-01.js';
+export { routesClase02 } from './routes-clase-02.js';
+export { routesClase03 } from './routes-clase-03.js';
+export { routesClase04 } from './routes-clase-04.js';
+export { routesClase05 } from './routes-clase-05.js';

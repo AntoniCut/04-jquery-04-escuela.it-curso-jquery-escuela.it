@@ -1,11 +1,11 @@
 /*
-    ----------------------------------------------------------------------
-    ----------  /jquery.antonydev.tech/  ---------------------------------
-    ----------  /04-escuela.it/  -----------------------------------------
-    ----------  /curso-jquery-escuela.it/  -------------------------------
-    ----------  /src/routes/  --------------------------------------------
-    ----------  /routes-02-utilizar-jquery-en-la-actualidad.js  ----------
-    ----------------------------------------------------------------------
+    -------------------------------------------------
+    ----------  /jquery.antonydev.tech/  ------------
+    ----------  /04-escuela.it/  --------------------
+    ----------  /curso-jquery-escuela.it/  ----------
+    ----------  /src/routes/  -----------------------
+    ----------  /routes-clase-02.js  ----------------
+    -------------------------------------------------
 */
 
 
@@ -20,7 +20,7 @@
  *  @type {Route[]}
  */
 
-export const routes02UtilizarJQueryEnLaActualidad = [
+export const routesClase02 = [
 
     {
         id: 'clase02',
@@ -33,12 +33,12 @@ export const routes02UtilizarJQueryEnLaActualidad = [
             "#btnNavbarThemesJQueryUI": "/04-escuela.it/curso-jquery-escuela.it/src/components/buttons/btn-navbar-themes-jquery-ui.html",
             "#layoutNavbar": "/04-escuela.it/curso-jquery-escuela.it/src/components/layout/layout-navbar.html",
             "#layoutNavbarThemesUI": '/04-escuela.it/curso-jquery-escuela.it/src/components/layout/layout-navbar-themes-jquery-ui.html',
-            "#layoutMain": "/04-escuela.it/curso-jquery-escuela.it/src/pages/clase-02-utilizar-jquery-en-la-actualidad/00-utilizar-jquery-en-la-actualidad.html",
+            "#layoutMain": "/04-escuela.it/curso-jquery-escuela.it/src/pages/clase-02/00-utilizar-jquery-en-la-actualidad.html",
             "#layoutFooter": "/04-escuela.it/curso-jquery-escuela.it/src/components/layout/layout-footer.html",
         },
         headerTitle: "Clase 2 - Es Necesario Utilizar jQuery en la Actualidad",
         styles: [
-            { href: "/04-escuela.it/curso-jquery-escuela.it/src/styles/pages/00-home.css" }
+            { href: "/04-escuela.it/curso-jquery-escuela.it/src/styles/pages/clase-02/00-utilizar-jquery-en-la-actualidad.css" }
         ],
         scripts: [
             { src: "/04-escuela.it/curso-jquery-escuela.it/src/scripts/tooltips.js" }

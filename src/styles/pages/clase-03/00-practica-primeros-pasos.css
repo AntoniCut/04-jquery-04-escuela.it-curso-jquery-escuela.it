@@ -1,0 +1,37 @@
+/*
+    -------------------------------------------------------
+    ----------  /jquery.antonydev.tech/  ------------------
+    ----------  /04-escuela.it/  --------------------------
+    ----------  /curso-jquery-escuela.it/  ----------------
+    ----------  /src/styles/pages/clase-03/  --------------
+    ----------  /00-practica-primeros-pasos.css  ----------
+    -------------------------------------------------------
+*/
+
+
+@media (min-width: 1024px) {
+    .main__section {
+        column-count: 3;
+    }
+}
+
+.main__section--practica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 120rem;
+}
+
+.titulo {
+    padding: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titular {
+    color: blueviolet !important;
+    background-color: aquamarine !important;
+}

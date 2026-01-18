@@ -1,0 +1,36 @@
+/*
+    ---------------------------------------------------
+    ----------  /jquery.antonydev.tech/  --------------
+    ----------  /04-escuela.it/  ----------------------
+    ----------  /curso-jquery-escuela.it/  ------------
+    ----------  /src/styles/pages/clase-05/  ----------
+    ----------  /00-introduccion-jquery.css  ----------
+    ---------------------------------------------------
+*/
+
+
+
+#capa {
+    color: white;
+    font-size: 2.6rem;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .main__section {
+        column-count: 3;
+    }
+}
+
+.main__section--practica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 120rem;
+}

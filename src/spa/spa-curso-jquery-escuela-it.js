@@ -12,8 +12,11 @@
 import {
 
     routes00Home,
-    routes01QueEsJQuery,
-    routes02UtilizarJQueryEnLaActualidad
+    routesClase01,
+    routesClase02,
+    routesClase03,
+    routesClase04,
+    routesClase05,
 
 } from '../routes/index.js';    
 
@@ -51,8 +54,11 @@ export const spaCursoJQueryEscuelaIt = () => {
      */
     const allRoutes = [
         ...routes00Home,
-        ...routes01QueEsJQuery,
-        ...routes02UtilizarJQueryEnLaActualidad
+        ...routesClase01,
+        ...routesClase02,
+        ...routesClase03,
+        ...routesClase04,
+        ...routesClase05,
     ];
 
     /**
@@ -63,7 +69,6 @@ export const spaCursoJQueryEscuelaIt = () => {
 
     /**
      * - Opciones para el plugin SPA
-     *
      * @example - route.components = { "#selector": "archivo.html" }
      *
      * @type {ConfigOptionsSPA}
