@@ -14,43 +14,18 @@
     ---------------------------------------------------------
 */
 
-.cursos__logos--udemy {
-    width: 9rem;
-    height: auto;
-}
-
-.cursos__logos--youtube {
-    width: 9rem;
-    height: auto;
-}
-
-.cursos__logos--desarrollowebcom {
-    width: 9rem;
-    height: 5rem;
-    mix-blend-mode: multiply;
-}
-
 .cursos__logos--escuela-it {
     width: 10rem;
     height: auto;
 }
 
-.cursos__logos--jquery-books {
-    width: 10rem;
-    height: auto;
-}
-
-.cursos__logos--jquery-manuales {
-    width: 8rem;
-    height: auto;
-}
-
 .main__section--home {
-    width: 100%;
+    width: 90%;
     max-width: 120rem;
     display: block;
     text-align: left;
     margin: 0 auto;
+    margin-bottom: 5rem;
 }
 
 
@@ -104,14 +79,22 @@
     height: auto;
 }
 
-.main__section--home .cursos__logos--udemy,
-.main__section--home .cursos__logos--youtube,
-.main__section--home .cursos__logos--desarrollowebcom,
-.main__section--home .cursos__logos--escuela-it,
-.main__section--home .cursos__logos--jquery-books,
-.main__section--home .cursos__logos--jquery-manuales {
-    border: 2px solid #ccc;
+/* .main__section--home .cursos__logos--escuela-it {
+    height: 2rem;
+}  */
+
+.main__section--home .emoji-title a {
+    display: inline-block;
+    width: 8rem;
+    height: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
 
 .main__section--home .cursos__logos--jquery-books,
 .main__section--home .cursos__logos--jquery-manuales {

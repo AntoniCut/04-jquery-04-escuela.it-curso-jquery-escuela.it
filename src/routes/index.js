@@ -15,3 +15,4 @@ export { routesClase02 } from './routes-clase-02.js';
 export { routesClase03 } from './routes-clase-03.js';
 export { routesClase04 } from './routes-clase-04.js';
 export { routesClase05 } from './routes-clase-05.js';
+export { routesClase06 } from './routes-clase-06.js';

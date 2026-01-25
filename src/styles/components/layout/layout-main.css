@@ -159,14 +159,23 @@
 
 /*  -----  Sección de Código  -----  */
 .main__section--practica {
-    width: 90%;
-    max-width: 120rem;
-    padding: 3rem;
+    width: 95%;
+    max-width: 80rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 3rem;
     background-color: #ffffff;
+    box-shadow: 1px 1px 10px rgba(61, 67, 75, 0.3);
+}
+
+@media (min-width: 768px) {
+    
+    .main__section--practica {
+        padding: 5rem;
+    }
 }
 

@@ -18,7 +18,9 @@
     console.log('\n');
 
 
-    $("#capa").css("background-color", "red");
+    $("#capa")
+        .text("Hola Mundo desde Escuela IT con jQuery!!!")
+        .css("background-color", "red");
 
 
 })(jQuery);
