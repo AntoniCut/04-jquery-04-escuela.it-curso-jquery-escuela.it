@@ -10,21 +10,11 @@
 
 
 @media (min-width: 1024px) {
-    .main__section {
+    .section__content--img {
         column-count: 3;
     }
 }
 
-.main__section--practica {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    width: 90%;
-    max-width: 120rem;
-}
 
 .titulo {
     padding: 2rem;

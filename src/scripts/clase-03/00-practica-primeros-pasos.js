@@ -10,13 +10,13 @@
 
 
 
-( ($) => {
+(($) => {
 
 
     console.log('\n');
     console.warn('-----  practica-primeros-pasos.js  -----');
     console.log('\n');
-    
+
 
     /** -----  Cambia la clase `titular` en el título  ----- */
     function cambiarTitular() {
@@ -31,11 +31,11 @@
     //  -----  Eventos con jQuery  -----
 
     $('#annadir').on('click', cambiarTitular);
-    
+
     $('#quitar').on('click', function () {
         $('.titulo').removeClass('titular');
     });
-    
+
 
 
 })(jQuery);
