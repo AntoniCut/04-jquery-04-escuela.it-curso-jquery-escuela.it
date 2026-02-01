@@ -22,7 +22,8 @@
     ---------------------------
 */
 
-.header__container {
+.header__container,
+.footer__header {
     width: 100vw;
     min-height: 30rem;
     position: relative;
@@ -45,7 +46,8 @@
 
 @media (min-width: 1200px) {
 
-    .header__container {
+    .header__container,
+    .footer__header {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
         column-gap: 2rem;
@@ -60,7 +62,8 @@
     -----------------------------------------------------------------  
 */
 
-.header__container-icons-logos {
+.header__container-icons-logos,
+.footer__container-icons-logos {
     width: 80%;
     position: relative;
     display: grid;
@@ -70,7 +73,8 @@
 
 @media (min-width: 480px) {
 
-    .header__container-icons-logos {
+    .header__container-icons-logos,
+    .footer__container-icons-logos {
         width: 40rem;
         height: 6rem;
         display: flex;
@@ -82,7 +86,8 @@
 
 @media (min-width: 1200px) {
 
-    .header__container-icons-logos {
+    .header__container-icons-logos,
+    .footer__container-icons-logos {
         width: 25rem;
         height: 20rem;
         flex-direction: column;
@@ -226,7 +231,8 @@
     ----------------------------------------------
 */
 
-.header__container-title {
+.header__container-title,
+.footer__container-title {
     position: relative;
     width: 100%;
     max-width: 102.4rem;
@@ -268,7 +274,8 @@
 
 
 /*  -----  Título del Header  -----  */
-.header__title-main {
+.header__title-main,
+.footer__title-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +284,8 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.header__title-page {
+.header__title-page,
+.footer__title-page {
     font-size: 1.6rem;
     font-weight: bold;
     color: var(--bg-light);
@@ -288,11 +296,13 @@
 
 @media (min-width: 768px) {
 
-    .header__title-main {
+    .header__title-main,
+    .footer__title-main {
         font-size: 2.8rem;
     }
 
-    .header__title-page {
+    .header__title-page,
+    .footer__title-page {
         font-size: 2.6rem;
     }
 
@@ -300,11 +310,13 @@
 
 @media (min-width: 1024px) {
 
-    .header__title-main {
+    .header__title-main,
+    .footer__title-main {
         font-size: 3rem;
     }
 
-    .header__title-page {
+    .header__title-page,
+    .footer__title-page {
         font-size: 2.8rem;
     }
 

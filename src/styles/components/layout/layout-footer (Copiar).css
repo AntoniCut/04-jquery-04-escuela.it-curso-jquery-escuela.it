@@ -45,12 +45,149 @@
     ---------------------------
     -----  Footer Header  -----
     ---------------------------
-
-    -  Estilos del footer header definidos en layout-header.css
-    
 */
 
+.footer__header {
+    width: 100%;
+    padding: 5rem;
+    position: relative;
+    z-index: 100;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*  -----  background  -----  */
+    background-color: var(--bg-white);
+    background-image: var(--bg-grid-pattern-header);
+    background-size: var(--bg-grid-size-48x48);
+    background-repeat: var(--bg-grid-repeat);
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1200px) {
+    .footer__header {
+        display: grid;
+        grid-template-columns: 30rem auto 30rem;
+        column-gap: 1rem;
+    }
+}
+
+
+/*  
+    ----------------------------------------------------------------
+    -----  Contenedor del logo y banner de jQuery y jQuery UI  -----
+    ----------------------------------------------------------------  
+*/
+
+.footer__container-logos {
+    width: 30rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+/*  -----  Logos y banners  -----  */
+
+.footer__jquery-icon,
+.footer__jquery-ui-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer__jquery-logo,
+.footer__jquery-ui-logo {
+    width: 12rem;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.footer__jquery-icon,
+.footer__jquery-ui-icon,
+.footer__jquery-logo,
+.footer__jquery-ui-logo {
+    transition: all 300ms ease-in-out;
+}
+
+.footer__jquery-icon:hover,
+.footer__jquery-ui-icon:hover,
+.footer__jquery-logo:hover,
+.footer__jquery-ui-logo:hover {
+    transform: scale(1.1);
+}
+
+
+/*  -----  Contenedor del Título  -----  */
+
+.footer__container-title {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    background-color: #F7E7C0;
+    background-image:
+        linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+        linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+    background-size: 40px 40px;
+
+    box-shadow: 10px 10px 10px rgb(209, 220, 235);
+}
+
+
+/*  -----  Título  -----  */
+
+.footer__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 1.8rem;
+    color: #036AAD;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer__title p {
+    font-size: 1.6rem;
+}
+
+.footer__separator {
+    max-width: 102.4rem;
+    width: 100%;
+    height: 0.1rem;
+    background-color: #E6EBF1;
+}
+
+@media (min-width: 768px) {
+    .footer__title {
+        font-size: 2.8rem;
+    }
+
+    .footer__title p {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__title {
+        font-size: 3.6rem;
+    }
+
+    .footer__title p {
+        font-size: 2.4rem;
+    }
+}
 
 
 /*  
@@ -159,9 +296,6 @@
     border-bottom: 1px solid white;
 }
 
-.item__link-title {
-    font-weight: bold;
-}
 
 /*  
     --------------------------
