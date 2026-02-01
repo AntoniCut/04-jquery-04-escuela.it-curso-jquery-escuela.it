@@ -62,11 +62,9 @@
     text-align: center;
     margin-bottom: 3rem;
     padding: 2rem;
-    background-color: #F7E7C0;
-    background-image:
-        linear-gradient(to right, #e5e7eb 1px, transparent 1px),
-        linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
-    background-size: 40px 40px;
+
+    border-radius: 0 15px 50px 15px;
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 30%, #F89C15 100%);
     box-shadow: 10px 10px 10px rgb(209, 220, 235);
 }
 

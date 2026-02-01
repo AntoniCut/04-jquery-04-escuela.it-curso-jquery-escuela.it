@@ -10,9 +10,9 @@
 
 
 /*  
-    ----------------------------------------------------------------------
-    -----  Layout Navbar  -  Menú Principal y Menú Themes jQuery UI  -----
-    ----------------------------------------------------------------------
+    ---------------------------
+    -----  Layout Navbar  -----
+    ---------------------------
 */
 
 .layout__navbar {
@@ -95,12 +95,9 @@
     margin-top: 0;
     margin-bottom: 3rem;
     padding: 2rem;
-    /* border-radius: 15px; */
-    background-color: #F7E7C0;
-    background-image:
-        linear-gradient(to right, #e5e7eb 1px, transparent 1px),
-        linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
-    background-size: 40px 40px;
+    
+    border-radius: 0 15px 50px 15px;
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 30%, #D84737 100%);
     box-shadow: 10px 10px 10px rgb(209, 220, 235);
 }
 
