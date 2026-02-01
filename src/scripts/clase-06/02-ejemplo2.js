@@ -32,10 +32,10 @@
         /** @type {JQuery<HTMLLIElement>} - `elementos li dentro de la lista <ul> con id="lista"`  */
         const $elemLis = $('#lista li');
 
-         /** @type {JQuery<HTMLDivElement>} */
+         /** @type {JQuery<HTMLDivElement>} - `Muestra los textos de los párrafos` */
         const $info1 = $('#info1');
         
-        /** @type {JQuery<HTMLDivElement>} */
+        /** @type {JQuery<HTMLDivElement>} - `Muestra los textos de los elementos de la lista` */
         const $info2 = $('#info2');
        
 
@@ -105,6 +105,7 @@
                 return; // salir de la función para no agregar el texto al arreglo
            }
 
+           //  -----  agregar el texto de cada elemento de la lista al arreglo arrElemLis  -----
             arrElemLis.push(`
                 <h3> 
                     <b> Texto del elemento ${(index + 1)} de la lista </b>

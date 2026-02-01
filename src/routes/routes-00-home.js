@@ -13,7 +13,7 @@
 /** @typedef {import('../types/route-types.js').Route} Route */
 
 
-/** - `path para las rutas del curso de TypeScript` */
+/** - `path para las rutas` */
 const paths = {
     favicon: '/04-escuela.it/curso-jquery-escuela.it/assets/favicon/jquery-favicon.ico',
     layoutHeader: '/04-escuela.it/curso-jquery-escuela.it/src/components/layout/layout-header.html',
