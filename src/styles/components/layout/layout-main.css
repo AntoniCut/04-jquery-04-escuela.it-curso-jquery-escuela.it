@@ -8,6 +8,8 @@
     -------------------------------------------------------
 */
 
+
+
 .layout__main {
     width: 100%;
 }
@@ -31,6 +33,7 @@
         margin-top: 0;
     }
 }
+
 
 
 .main__section {
@@ -68,6 +71,7 @@
 }
 
 
+/*  -----  Sección de Imágenes  -----  */
 .section__content--img {
 
     width: 100%;
@@ -158,13 +162,14 @@
 
 
 /*  -----  Sección de Código  -----  */
-.main__section--practica {
+.main__section--practica,
+.section__content--practica {
     width: 95%;
     max-width: 80rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 2rem;
     margin-bottom: 3rem;
@@ -174,7 +179,8 @@
 
 @media (min-width: 768px) {
     
-    .main__section--practica {
+    .main__section--practica,
+    .section__content--practica {
         padding: 5rem;
     }
 }
