@@ -1,0 +1,69 @@
+<!--  
+    -----------------------------------------------------------------
+    ----------  /jquery.antonydev.tech/  ----------------------------
+    ----------  /04-escuela.it/  ------------------------------------
+    ----------  /curso-jquery-escuela.it/  --------------------------
+    ----------  /src/pages/  ----------------------------------------
+    ----------  /clase-08-selectores-jquery-y-traversing/  ----------
+    ----------  /04-partir-de-un-contexto.html  ---------------------
+    -----------------------------------------------------------------
+-->
+
+
+
+<div class="main__container">
+
+
+    <!--  -----  Sección 1  -----  -->
+    <section class="main__section">
+
+
+        <!--  -----  Header de la Sección  -----  -->
+        <header class="section__header">
+
+            <h2 class="section__title" title="Que es jQuery">
+                Clase 8 - 4. Partir de un Contexto
+            </h2>
+
+        </header>
+
+        <!--  -----  Práctica  -----  -->
+        <section class="section__content section__content--practica">
+
+
+            <header id="principal">
+
+                <h3 class="grande">
+                    Mi Titulo <span> importante </span>
+                </h3>
+
+                <div>
+                    Estoy header > div y
+                    <span class="grande">
+                        span.grande
+                    </span>
+                </div>
+
+            </header>
+
+            <div class="grande">
+                Otro elemento
+            </div>
+
+            <hr>
+
+            <div class="btn__container">
+                <button id="btn1"> $("#principal .grande").css("color", "red") </button>
+                <button id="btn2"> $("#principal > .grande").css("color", "red") </button>
+                <button id="btn3"> $(".grande", "#principal").css("background", "#ccf") </button>
+                <button id="btn4"> $("#principal").find(".grande").css("color", "blue") </button>
+            </div>
+
+        </section>
+
+    </section>
+
+    </section>
+
+
+</div>
